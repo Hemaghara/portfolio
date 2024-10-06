@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <!-- Home page Section -->
+  <section class="componet " id="home">
+        <header>
+            <div class="logo">
+                <h1>HEM</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#project">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+
+                <div class="menu-toggle" onclick="toggleMenu()">
+                    <i class="fas fa-bars"></i>
+                </div>
+
+                <div class="mobile-menu" id="mobileMenu">
+                    <a href="#home">Home</a>
+                    <a href="#About">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#project">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <section class="intro">
+                <div class="intro-text">
+                    <p class="job-title">Front-End Web Developer</p>
+                    <h2>Hello, My Name is<br> <span>Hem Aghara</span></h2>
+                    <p>I am a passionate developer with expertise in front-end development, building dynamic and
+                        responsive
+                        websites using modern technologies.</p>
+                    <div class="buttons">
+                        <a href="#" class="btn-contact"><i class="fas fa-envelope"></i>Contact Me</a>
+                        <a href="#" class="btn-cv"><i class="fas fa-download"></i>My CV</a>
+                    </div>
+                    <div class="social-icons">
+                        <a
+                            href="https://www.linkedin.com/in/hem-aghara-b8286028b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i
+                                class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/Hemaghara"><i class="fab fa-github"></i></a>
+                        <a href="https://www.instagram.com/hemu_patel_36?igsh=OGhzb2xua3B2MGN4"><i
+                                class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="intro-image">
+                    <img src="about-photo.png" alt="Hem Aghara's Image">
+                </div>
+            </section>
+
+        </main>
+
+    </section>
+    
+    <!-- About Section -->
+
+
+    <div class="title" id="about">
+        <h1>About us</h1>
+    </div>
+
+
+    <section class="about">
+        <div class="about-img">
+            <img src="about-photo.png" alt="About Me Image" />
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About<span>Me</span></h2>
+            <h3>Frontend Developer</h3>
+            <p>
+                I specialize in creating interactive and responsive user interfaces with a strong passion for design
+                and technology. My focus is on crafting efficient and user-friendly web applications.
+            </p>
+            <h3>Technical Skills</h3>
+            <p>
+                HTML, CSS, JavaScript, React.js, Bootstrap
+            </p>
+            <a href="#home" class="btn">Read More</a>
+        </div>
+    </section>
+
+
+
+    <!-- web devlopment skill -->
+
+
+    <section id="skills">
+        <div class="title title1">
+            <h1>Development Skill</h1>
+        </div>
+
+        <div class="circle-container" class="Skill">
+            <img src="html.webp" alt="HTML">
+            <img src="css.webp" alt="CSS">
+            <img src="javascipt.webp" alt="JavaScript">
+            <img src="bootstrap-logo.webp" alt="Bootstrap">
+            <img src="word press.webp" alt="WordPress">
+            <img src="react js.webp" alt="React">
+            <img src="node js.webp" alt="Node.js">
+            <img src="mongo db.jpg" alt="mongodb">
+            <img src="central-logo.webp" alt="Central Logo" class="central-logo">
+        </div>
+    </section>
+
+
+
+    <!-- project section -->
+
+    <section id="portfolio">
+        <div class="title title1" id="project">
+            <h1>Java Projects</h1>
+        </div>
+        <div class="boxes ">
+            <div class="box">
+                <h2>Sudoku Solver</h2>
+                <p class="piece-count">A Java application to solve Sudoku puzzles efficiently using algorithms and logic
+                    techniques.</p>
+                <div class="links-container">
+                    <a href="https://github.com/Hemaghara/java-project/tree/main/java%20project%203">GitHub</a>
+
+                </div>
+            </div>
+            <div class="box">
+                <h2>Student Grade Calculator</h2>
+                <p class="piece-count">A Java application that calculates and manages student grades based on their
+                    performance in different subjects.</p>
+                <div class="links-container">
+                    <a href="#">GitHub</a>
+
+                </div>
+            </div>
+            <div class="box vertical-line">
+                <h2>ATM Management System</h2>
+                <p class="piece-count">An ATM simulation system for handling transactions such as cash withdrawal,
+                    balance checks, and PIN changes.</p>
+                <div class="links-container">
+                    <a href="#">GitHub</a>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section>
+        <div class="title title1">
+            <h1>java & mysql project</h1>
+        </div>
+        <div class="boxes">
+            <div class="box">
+                <h2>Bank Management System</h2>
+                <p class="piece-count">A comprehensive solution for managing bank operations, customer accounts, and
+                    transactions. Features include account creation, balance inquiry, fund transfer, and
+                    deposit/withdrawal options.</p>
+                <div class="links-container">
+                    <a href="#">GitHub</a>
+
+                </div>
+            </div>
+            <div class="box">
+                <h2>Hospital Management System</h2>
+                <p class="piece-count">A system designed to manage hospital operations such as patient admissions,
+                    doctor appointments, staff management, and billing. It ensures efficient record-keeping and
+                    appointment scheduling.</p>
+                <div class="links-container">
+                    <a href="#">GitHub</a>
+
+                </div>
+            </div>
+            <div class="box vertical-line">
+                <h2>ATM Management System</h2>
+                <p class="piece-count">An ATM simulation system that allows users to manage ATM-related transactions
+                    like cash withdrawal, balance checking, and PIN changes, built using Java and connected to a MySQL
+                    database.</p>
+                <div class="links-container">
+                    <a href="#">GitHub</a>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section>
+        <div class="title title1">
+            <h1>fronted project</h1>
+        </div>
+        <div class="boxes">
+            <div class="box">
+                <h2>Temperature Converter</h2>
+                <p class="piece-count">A web app for converting temperatures between Celsius, Fahrenheit, and Kelvin.
+                </p>
+                <div class="links-container">
+                    <a href="#">GitHub</a>
+                    <a href="https://hemaghara.github.io/tempture-converter/">Watch</a>
+                </div>
+            </div>
+            <div class="box">
+                <h2>Spotify Clone</h2>
+                <p class="piece-count">A music streaming interface mimicking Spotify, with playlist management and
+                    playback features.</p>
+                <div class="links-container">
+                    <a href="#">GitHub</a>
+                    <a href="#">Watch</a>
+                </div>
+            </div>
+            <div class="box vertical-line">
+                <h2>Password Generator</h2>
+                <p class="piece-count">Generates strong, secure passwords based on user-specified criteria for enhanced
+                    security.</p>
+                <div class="links-container">
+                    <a href="#">GitHub</a>
+                    <a href="#">Watch</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section>
+        <div class="title title1">
+            <h1>Full Stack Projects</h1>
+        </div>
+        <div class="boxes">
+            <div class="box">
+                <h2>E-commerce Website</h2>
+                <p class="piece-count">A full-stack e-commerce platform where users can browse, search, and purchase
+                    products. It includes authentication, a product catalog, a shopping cart, and a payment gateway
+                    integration.</p>
+                <div class="links-container">
+                    <a href="#">GitHub</a>
+                    <a href="#">Watch</a>
+                </div>
+            </div>
+            <div class="box">
+                <h2>Social Media Platform</h2>
+                <p class="piece-count">A social media web application that allows users to create accounts, post
+                    updates, follow other users, and interact via likes and comments. Built with a RESTful API and
+                    connected to a database.</p>
+                <div class="links-container">
+                    <a href="#">GitHub</a>
+                    <a href="#">Watch</a>
+                </div>
+            </div>
+            <div class="box vertical-line">
+                <h2>Blog Application</h2>
+                <p class="piece-count">A dynamic blogging platform where users can create, edit, and delete blog posts.
+                    It includes user authentication, a comment section, and support for rich media content.</p>
+                <div class="links-container">
+                    <a href="#">GitHub</a>
+                    <a href="#">Watch</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    </section>
+
+    <!-- contact form -->
+
+    <div class="title title1" id="contact">
+        <h1>contact form</h1>
+    </div>
+    <section class="hello-contact" id="contact">
+        <div class="contact-container">
+            <form id="contactForm" class="contact-left" action="https://api.web3forms.com/submit" method="POST">
+                <div class="contact-left-title">
+                    <h2 class="Get-in-touch">Get in touch</h2>
+                    <hr>
+                </div>
+                <input type="hidden" name="access_key" value="ad569293-bf32-45a1-8e4f-bd11ef990887">
+                <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+                <input type="email" name="email" placeholder="Your email" class="contact-inputs" required>
+                <textarea name="message" placeholder="Your message" class="contact-textarea" required></textarea>
+                <button type="submit">Submit <img src="assets/arrow_icon.png" alt=""></button>
+            </form>
+
+            <div class="contact-right">
+                <img src="assets/right_img.png" alt="">
+            </div>
+        </div>
+
+        <!-- Success Message Container -->
+        <div id="formMessage" class="success-message">
+            <h1>Form submitted successfully!</h1>
+            <p>Thank you! The form has been submitted successfully.<br>We will reply to you soon!</p>
+            <a href="#" id="goBack">Go back</a>
+        </div>
+
+    </section>
+
+</body>
+<script src="script.js"></script>
+
+</html>
